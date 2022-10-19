@@ -18,9 +18,24 @@ main{
     margin-left: 25%;
     background-color:lightgrey;
 }
+.grid-area{
+    display: grid;
+    grid-template-column: 1fr 1fr 1fr;
+    grid-template-row: 1fr 1fr 1fr;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black; 
+}
 
-@media (max-width:169){
-    .box{
-        width:100%;
+@media (max-width:576px){
+    h1{
+        display: none;
     }
 }
