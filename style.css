@@ -1,19 +1,26 @@
+
 .heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: gray;
 }
-.about{
-    margin-right: 3%;
+section1, section2{
+    margin:10px;
 }
 
 main{
     text-align: center;
 }
 .box{
-    border:5px solid black;
     height:400px;
     width:50%;
     margin-left: 25%;
+    background-color:lightgrey;
+}
+
+@media (max-width:169){
+    .box{
+        width:100%;
+    }
 }
