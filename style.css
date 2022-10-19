@@ -1,0 +1,10 @@
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    border:5px solid black;
+    height:500px;
+    width:50%;
+}
